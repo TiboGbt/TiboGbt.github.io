@@ -1,0 +1,75 @@
+@font-face {
+    font-family:"Gabarito";
+    src: url("./Gabarito/Gabarito-VariableFont_wght.ttf");
+}
+    
+header {
+    background-color: #000000;
+    border-color: #000000;
+    border: 35px;
+    border-radius: 20px;
+    width: fit-content;
+
+}
+
+body {
+    background-color:  rgb(108, 25, 100);
+    font-family: "Gabarito";
+}
+
+h1{
+    padding: 20px;
+    --blanc: blanchedalmond;
+    border-radius: 20px;
+    border-top: 3px solid var(--blanc);
+    border-right:3px dashed var(--blanc);
+    border-bottom:3px solid var(--blanc);
+    border-left: 3px dashed var(--blanc);
+    text-decoration: line-through;
+    width: fit-content;
+}
+
+h2 {
+color: rgb(211, 211, 211);
+    padding: 10px;
+    border:3px solid rgb(0, 0, 0);
+    border-radius: 20px;
+    box-sizing: border-box;
+    width: fit-content;
+}
+
+img{
+    padding: 10px;
+    border:3px solid rgb(0, 0, 0);
+    border-radius: 20px;
+    box-sizing: border-box;
+    width: fit-content;
+}
+header {
+    color: rgb(0, 255, 76);
+}
+
+table {
+    color: rgb(0, 140, 255);
+    
+}   :hover {
+    text-decoration: dotted 3px;
+    color: lightgray;
+}
+a {
+    color: rgb(0, 140, 255);
+    border: 10px;
+    border-radius: 20px;
+    width: fit-content;
+}   :hover {
+    text-decoration:dotted;
+    color:rgb(211, 211, 211);
+}
+
+
+h4 { color: rgb(211, 211, 211);
+     
+} :hover {
+    color: rgb(0, 140, 255);
+    text-decoration: dotted;
+}
